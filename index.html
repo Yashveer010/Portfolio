@@ -1,0 +1,287 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yashveer • Staff, Community & General Manager</title>  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">  <style>
+    :root {
+      --bg: #29465B;
+      --surface: #111827;
+      --surface-soft: #0f172a;
+      --primary: #ADD8E6;
+      --primary-soft: rgba(96,165,250,.12);
+      --text: #c8e7f2;
+      --muted: #9ca3af;
+      --border: #6699CC;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #1e293b, transparent),
+        radial-gradient(800px 500px at 100% 10%, #0f172a, transparent),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(11,15,25,.6);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: auto;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo { font-weight: 800; letter-spacing: .4px; }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 24px;
+      font-weight: 500;
+    }
+
+    nav a:hover { color: var(--text); }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 120px 20px 40px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 70px;
+      align-items: center;
+      min-height: 85vh;1
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 56px;
+      line-height: 1.1;
+      margin: 0 0 20px;
+      font-weight: 900;
+    }
+
+    h1 span { color: var(--primary); }
+
+    .lead {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 560px;
+    }
+
+    .cta {
+      margin-top: 36px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 26px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: .25s ease;
+    }
+
+    .btn.primary {
+      background: var(--primary);
+      color: #000;
+    }
+
+    .btn.primary:hover { opacity: .9; }
+
+    .btn.ghost {
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .btn.ghost:hover { border-color: var(--primary); color: var(--primary); }
+
+    .summary {
+      background: linear-gradient(180deg, var(--surface), var(--surface-soft));
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 34px;
+    }
+
+    section { margin-top: 120px; }
+
+    h2 {
+      font-size: 34px;
+      margin-bottom: 12px;
+    }
+
+    .sub {
+      color: var(--muted);
+      max-width: 720px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 26px;
+      margin-top: 48px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--surface), var(--surface-soft));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      transition: .3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: var(--primary);
+    }
+
+    .card h3 { margin: 0 0 10px; }
+
+    .card p {
+      color: var(--muted);
+      font-size: 15.5px;
+    }
+
+    footer {
+      margin-top: 140px;
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      header { grid-template-columns: 1fr; min-height: auto; }
+      h1 { font-size: 42px; }
+    }
+  </style></head>
+<body><nav>
+  <div class="nav-inner">
+    <div class="logo">Yashveer</div>
+    <div>
+      <a href="#work">Work</a>
+      <a href="#impact">Impact</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav><div class="container">  <header>
+    <div>
+      <div class="pill">Staff • Community • General Management</div>
+      <h1>Building <span>high-trust</span>, scalable communities.</h1>
+      <p class="lead">
+        I’m Yashveer, a staff, community, and general manager with multiple years of
+        experience leading online teams, enforcing structure, and creating
+        environments where both people and systems perform at their best. I've worked 
+        with many servers(online) and have gained a lot of experience from staffing at those servers. 
+      </p><div class="cta">
+    <a href="#work" class="btn primary">View Experience</a>
+    <a href="#contact" class="btn ghost">Get in Touch</a>
+  </div>
+</div>
+
+<div class="summary">
+  <h3>Executive Summary</h3>
+  <p>• Leadership across multiple Minecraft networks</p>
+  <p>• Staff hiring, training, evaluation, and retention</p>
+  <p>• Policy enforcement, conflict resolution, escalation handling</p>
+  <p>• Long-term community growth & sustainability</p>
+</div>
+
+  </header>  <section id="impact">
+    <h2>Core Expertise</h2>
+    <p class="sub">Areas where I consistently deliver measurable impact</p><div class="grid">
+  <div class="card">
+    <h3>Staff Management</h3>
+    <p>
+      Designing staffing structures, recruiting qualified candidates,
+      onboarding and training new staff, and maintaining accountability
+      through clear expectations, performance reviews, and internal systems.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Community Management</h3>
+    <p>
+      Owning the health of large player communities by enforcing policies
+      consistently, resolving disputes calmly, handling sensitive cases,
+      and ensuring players feel heard, respected, and safe within the
+      ecosystem.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>General Management</h3>
+    <p>
+      Overseeing day-to-day operations, aligning staff teams with leadership
+      goals, improving internal workflows, and ensuring long-term stability
+      and growth of the platform.
+    </p>
+  </div>
+</div>
+
+  </section>  <section id="work">
+    <h2>Experience</h2>
+    <p class="sub">Organizations and communities I’ve contributed to</p><div class="grid">
+  <div class="card"><h3>Multiverse Studios</h3><p>Executive</p></div>
+  <div class="card"><h3>Arcane Realms</h3><p>Manager</p></div>
+  <div class="card"><h3>Bingung SMP</h3><p>Staff Manager Assistant</p></div>
+  <div class="card"><h3>Extreme Network</h3><p>Administrator</p></div>
+  <div class="card"><h3>StackEdge</h3><p>COO</p>
+  </p> Check out StackEdge at www.stackedge.cloud </p></div>
+  </p> These are the servers I've and am staffing at. </p>
+</div>
+
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <p class="sub">Open to serious opportunities and long-term collaboration</p><div class="card">
+  X: <weak>YashveerrS</weak><br><br>
+  <a class="btn primary" onclick="navigator.clipboard.writeText('YashveerrS')">Copy X</a>
+  </section> <section>
+  <div class="card">
+  LinkedIn: <strong>Yashveer Supehiya</strong><br><br>
+  <a class="btn primary" onclick="navigator.clipboard.writeText('Yashveer Supehiya')">Copy LinkedIn</a>
+</div>
+
+  </section>  <footer>
+    © 2025 Yashveer 
+   
+  </footer></div></body>
+</html>n primary" onclick="navigator.clipboard.writeText('Yashveer Supehiya')">Copy LinkedIn</a>
+</div>
+
+  </section>  <footer>
+    © 2025 Yashveer 
+   
+  </footer></div></body>
+</html>
